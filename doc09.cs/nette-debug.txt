@@ -112,9 +112,10 @@ Propojení na Firebug
 Komunikace Nette\Debug a Firebugu dává vývojářům možnost zasílat zprávy samostatným kanálem, mimo okno prohlížeče. Lze to tedy využít pro zasílání chyb úrovně E_NOTICE a E_WARNING (tohle bude nějak Nette\Debug řešit automaticky). Taktéž je možné logovat výjimky, které sice aplikace zachytila, ale stojí za to na ně upozornit. Firebug konzole se také výborně hodí pro ladění AJAXových aplikací.
 
 
-1) stáhněte si rozšíření [Firebug | http://www.getfirebug.com/] (to nejspíš už ve Firefoxu máte)
-2) stáhněte si rozšíření [FirePHP | https://addons.mozilla.org/en-US/firefox/addon/6149]
-3) zapněte si FirePHP v FirePHP menu a aktivujte Firebug Net panel
+1) je vyžadován je Firefox verze 2 nebo 3
+2) stáhněte si rozšíření [Firebug | http://www.getfirebug.com]
+3) stáhněte si rozšíření [FirePHP | http://www.firephp.org] (minimálně ve verzi 0.2)
+4) zapněte si FirePHP v FirePHP menu a aktivujte Firebug Net panel
 
 
 Protože Nette\Debug komunikuje s Firebugem přes HTTP hlavičky, je nutné volat logovací funkce ještě před tím, než PHP skript cokoliv vypíše. Také je možné zapnout [output buffering | http://php.net/manual/en/function.ob-start.php] a tím výstup oddálit.
