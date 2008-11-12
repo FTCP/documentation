@@ -51,6 +51,7 @@ Filtr curlyBrackets
 | `{_expression}` | echo with escaping and translation
 | `{snippet ?} ... {/snippet ?}` | control snippet
 | <code>{block \|texy} ... {/block}</code> | texy block
+| `{contentType ?}` | inserts HTTP header Content-Type
 | `{debugbreak}` | vloží breakpoint, funguje ale jen v některých IDE, např. [PhpED | http://www.nusphere.com/products/phped.htm]
 
 Vlastní filtry curlyBrackets
