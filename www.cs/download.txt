@@ -1,11 +1,12 @@
 Download
 ********
 
-Nette Framework 0.8, [changelog | http://code.google.com/p/nette/source/list], uvolněno pod [Nette licencí | license]. Vyžaduje PHP ve verzi 5.1 nebo novější.
+Nette Framework 0.8, [changelog | http://code.google.com/p/nette/source/list], uvolněno pod [Nette licencí | license]. Vyžaduje PHP minimálně ve verzi 5.2.0.
 
-<a href="http://files.nette.org/nette-0.8.7z" id="download"><strong>Start Download</strong><br />{{svn}}</a>
+<div id="download"><a href="http://files.nette.org/latest.zip"><strong>Start Download</strong><br />{{svn}}</a></div>
 
---- .[clear]
+
+Po každé aktualizaci Nette nezapomeňte smazat dočasně soubory (adresář `temp`).
 
 
 Subversion Access
