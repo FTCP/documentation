@@ -132,7 +132,7 @@ Konfigurace session
 $session = Environment::getSession();
 
 // sezení vyprší po 14 dnech neaktivity
-$session->setExpiration(1209600);
+$session->setExpiration('+ 14 days');
 
 // sezení vyprší jakmile uživatel zavře prohlížeč
 $session->setExpiration(0);
