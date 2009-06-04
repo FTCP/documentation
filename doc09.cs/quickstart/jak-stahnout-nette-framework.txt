@@ -1,0 +1,6 @@
+Jak stáhnout Nette Framework
+****************************
+
+Praktický tutoriál vás seznámí s mocným frameworkem. Uvidíte, jak jeho použití několikanásobně zvýší vaši produktivitu. Nette Framework přichází s celou řadou **technologických inovací,** které byste u jiných frameworků marně hledali. Během **pár minut postavíme aplikaci s plnou podporou AJAXu** a získáme užitečnou znovupoužitelnou komponentu. Pojďme na to!
+
+...
