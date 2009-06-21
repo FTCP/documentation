@@ -8,7 +8,7 @@ Ta si umí navíc, kromě toho že se umí vykreslit, zapamatovat, jestli při s
 
 Nette však nabízí ještě jemnější rozlišení, než na úrovni Controlů, a to tzv. [snippetů|Ajax & Snippety] neboli ústřižků.
 
-*Poznámka: pro jednoduchost k pochopení budu v následujících odstavcích brát Control jako komponentu. To, že je vykreslitelná vyplývá z překreslovací vlastnosti snippetů*.
+*Poznámka: pro jednoduchost k pochopení budu v následujících odstavcích brát Control jako komponentu. To, že je vykreslitelná, vyplývá z překreslovací vlastnosti snippetů*.
 
 Lze tedy invalidovat/va­lidovat na úrovni těchto snippetů (každá komponenta může mít libovolné množství snippetů). Pokud se invaliduje celou komponentu, tak je i každý snippet považován za invalidní. Komponenta je invalidní i tehdy, pokud je invalidní některá její subkomponenta. Komponenta, která přijímá signál, je automaticky označena za invalidní.
 
