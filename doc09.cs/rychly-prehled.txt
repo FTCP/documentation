@@ -16,7 +16,9 @@ A
 .[#akce]
 action:
 	- (akce) - zastupuje požadavek uživatele. Je součástí presenteru (jeden presenter může mít více akcí).
-
+.[#ajax]
+AJAX:
+	- (Assynchronous JavaScript And XML) - technologie výměny informací mezi klientem a serverem pod protokolem HTTP bez nutnosti znovunačtení celé stránky. Historicky prošla několika verzemi; ustálila se na spolupráci s JavaScriptovým objektem `XMLHttpRequest`. Posílaná data jsou ve formátu XML.
 C
 ----
 .[#cesta]
@@ -69,6 +71,15 @@ M
 .[#model]
 model:
 	- Písmenko **M** z **M**VC modelu; aplikační (bussiness) logika aplikace, zprostředkuje přístup k práci s daty.
+.[#model-view-controller]
+Model-View-Controller:
+	- Architektura, která rozděluje aplikaci do tří vrstev:
+* [(datový) model | #model], který zajišťuje přístup k datům a manipulaci s nimi,
+* [view | #view] (pohled), který je získaná data zobrazí ve vhodné podobě, a
+* [controller | #controller] (řadič řídicí logiky), který zjišťuje požadavky uživatele a řízením ostatních dvou modulů zajišťuje, aby uživatel dostal, co požaduje.
+.[#model-view-presenter]
+Model-View-Presenter:
+	- Architektura, vycházející z [Model-View-Controller | #Model-View-Controller], kterou využívá Nette. (viz [Model-View-Presenter (MVP) | model-view-presenter])
 .[#modul]
 modul:
 	- Skupina Presenterů, Modelů a Pohledů, které spolu mají souvislost a nacházejí se v jednom stejném adresáři.
@@ -107,7 +118,7 @@ směrovač:
 	- viz [router | #router].
 .[#snippet]
 snippet:
-	- (ústřižek) - označená oblast stránky, kterou lze překreslit pomocí AJAXu.
+	- (ústřižek) - označená oblast stránky, kterou lze překreslit pomocí [AJAXu | #ajax].
 .[#šablona]
 šablona:
 	- viz [template | #template].
