@@ -34,7 +34,7 @@ class Acl extends Permission {
 }
 \--
 
-Pro načítání rolí a zdrojů z databáze použijeme třídu AclModel:
+Pro načítání rolí a zdrojů z databáze použijeme třídu *AclModel*:
 
 /--code php
 class AclModel extends Object {
