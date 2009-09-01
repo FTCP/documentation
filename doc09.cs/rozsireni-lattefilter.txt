@@ -3,6 +3,7 @@ Rozšíření LatteFilter
 
 Zjednodušená syntaxe Latte značky (tagu):
 
+
 [*  .{margin:1em}*]
 
 [*  .{margin:1em}*]
