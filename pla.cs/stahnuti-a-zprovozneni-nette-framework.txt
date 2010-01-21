@@ -13,5 +13,6 @@ Alternativa
 - Seznam všech sreencastů naleznete "zde":[/screencast].
 
 {{attachment: }}
+{{themeicon: }}
 
 {{tags: screencast}}
