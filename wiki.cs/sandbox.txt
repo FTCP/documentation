@@ -1,5 +1,4 @@
 {{title:Pískoviště}}
-((tags: nette-0.9))
 
 Titulek
 ***
@@ -17,4 +16,4 @@ Nieco
 
 Dady's home
 
-{{tags: alfa, beta, todo}}
+{{tags: nette-0.9}}
