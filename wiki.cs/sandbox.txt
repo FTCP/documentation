@@ -1,4 +1,5 @@
 {{title:Pískoviště}}
+((tags: nette-0.9))
 
 Titulek
 ***
