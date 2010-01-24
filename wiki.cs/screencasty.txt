@@ -4,7 +4,7 @@ Screencasty
 
 [*  .[icon] *]
 
-[screencasts/Stáhnutí a zprovoznění Nette Framework]
+[screencasty/Stáhnutí a zprovoznění Nette Framework]
 ------------
 První krůčky s Nette Frameworkem.
 
