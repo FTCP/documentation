@@ -2,9 +2,9 @@ Quick Start
 ***********
 
 .[perex]
-Jak začít s Nette Frameworkem snadno a rychle? Pojďme teď společně vytvořit *jednoduchý To-Do list* **za 7 minut**. -> ANO, tak moc vám Nette Framework zjednoduší práci!
+Praktický tutoriál vás seznámí s mocným frameworkem. Uvidíte, jak jeho použití **několikanásobně zvýší vaši produktivitu**. Nette Framework přichází s celou řadou **technologických inovací**, které byste u jiných frameworků marně hledali. Během **pár minut** vytvoříme aplikaci s **plnou podporou AJAXu** a získáme užitečnou znovupoužitelnou komponentu. Pojďme na to!
 
-Tak, pojďme na to!
+Tutoriál je rozdělen do 12 částí:
 
 1. [quickstart/Co budeme potřebovat?]
 2. [quickstart/Adresářová struktura]
