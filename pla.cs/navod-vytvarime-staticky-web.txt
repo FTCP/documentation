@@ -25,7 +25,7 @@ Více o doporučené adresářové struktuře najdete v [2. kapitole QuickStartu
 
 Překopírujte tedy připravený obsah adresáře `skeleton` do připravené složky nebo zkopírujte celou složku `skeleton` do vašeho webového prostoru a pak přejmenujte, jak uznáte za vhodné. My si adresář pojmenujeme třeba `netteweb`.
 
-Pojďme se podívat blíže do struktury skeletonu, nyní `netteweb`, na adresáře, které nás budou zajímat:
+Pojďme se podívat blíže do struktury skeletonu, nyní `netteweb` (ke stažení na konci stránky), na adresáře, které nás budou zajímat:
 /--
 +--documnet_root/ (kořen aplikaci, např.: index.php)
 +--libs/ (knihovny aplikace jako např.: loader.php, dibi.min.php)
@@ -136,8 +136,7 @@ abstract class BasePresenter extends Presenter
 	public $oldLayoutMode = FALSE;
 }
 \--
-renderDefault()
----
+
 Náš web bude mít 3 stránky s menu: `Domů | Nabídka | Kontakt` a budeme tedy potřebovat 3 Presentery a to: `HomePagePresenter.php`, `ProductPresenter.php`, `ContactPresenter.php`. My si ukážeme, jak udělat HomePagePresenter.php a další 2 už zvládnete sami.
 
 HomePagePresenter bude vypadat takto:
@@ -191,7 +190,7 @@ cesta k souboru: `app/templates/@layout.phtml`
 
 Nyní musíme ještě vytvořit šablonu pro HomePagePresenter a další 2 presentery, které jste vytvořili již samostatně. Pro tento Presenter Nette očekává šablonu v adresáři `app/templates/HomePage` pod názvem `default.phtml`. Tady je její podoba:
 
-cesta k souboru: `app/templates/Homepage/default.phtml`
+cesta k souboru: `app/templates/HomePage/default.phtml`
 /--html
 {block title}
 <title>Nette Fabrika, s.r.o. - Úvod</title>
@@ -225,19 +224,19 @@ Tím je to hotové a teď musíme v BasePresenteru nachystat data pro proměnnou
 cesta k souboru: `app/presenters/BasePresenter.php`
 /--php
 <?php
-<?php
 abstract class BasePresenter extends Presenter
 {
-	public function beforeRender(){
-		$this->template->menuItems = array
-		(
-		 'HomePage:'=>'Domů',
-		 'Products:'=>'Produkty',
-		 'Contact:'=>'Kontakty'
-		 );
-	}
-	//prepínac zoabrazení šablon
+	// přepínač zobrazení šablon
 	public $oldLayoutMode = FALSE;
+
+	public function beforeRender()
+	{
+		$this->template->menuItems = array(
+			'HomePage:' => 'Domů',
+		 	'Products:' => 'Produkty',
+			'Contact:' => 'Kontakty',
+		);
+	}
 }
 \--
 Definici proměnné je třeba umístit do metody beforeRender(), aby byla dostupná pro všechny view.
@@ -259,17 +258,14 @@ cesta k souboru: `app/presenters/@layout.phtml.phtml`
 
 Připojení CSS stylu k šabloně
 ===
-Na chvilku si oddechneme a budeme se trochu věnovat grafice. Tzn. nastylujeme si již vytvořené položky v šabloně pomocí CSS. Můžete použít připravený styl a umístit je do `document_root/css/screen.css`
-
-.[download]
-{{attachment: }}
+Na chvilku si oddechneme a budeme se trochu věnovat grafice. Tzn. nastylujeme si již vytvořené položky v šabloně pomocí CSS. Můžete použít připravený styl v zazipované aplikaci (dole na stránce) a umístit je do `document_root/css/screen.css`
 Nyní připojíme tento styl k naší šabloně. Využijeme k tomu zabudované Nette proměnné `$basePath`. Provedeme následující zápis v základní šabloně, který netřeba komentovat.
 
 cesta k souboru: `document_root/templates/@layout.phtml`
 /--html
 <head>
 ...
-<link href="<?php echo $basePath?>css/screen.css" rel="stylesheet" type="text/css" />
+<link href="{$basePath}/css/screen.css" rel="stylesheet" type="text/css" />
 ...
 </head>
 \--
@@ -283,7 +279,6 @@ cesta k souboru: `document_root/templates/@layout.phtml`
 <li {ifCurrent $id}class="current"{/if}><a href="{plink $id}">{$item}</a></li>
 \--
 
-Celá aplikace ke stažení:
 .[download]
 {{attachment: }}
 
