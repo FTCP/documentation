@@ -26,7 +26,8 @@ Pokud už na nějaké části dokumentace pracujete a nejste uvedeni v tabulce n
 | Hotovo | Aktualizovat QS - [doc:quickstart/Co budeme potřebovat?]                                 | Inza
 | Hotovo | Aktualizovat QS - [doc:quickstart/Adresářová struktura]                                  | Inza
 | Hotovo | Aktualizovat QS - [doc:quickstart/Vytvoření databáze]                                    | Inza
-|        | Aktualizovat QS - [doc:quickstart/Vytvoření presenteru]                                  | Inza
+| Hotovo | Aktualizovat QS - [doc:quickstart/Vytvoření presenteru]                                  | Inza
+|        | Aktualizovat QS - [doc:quickstart/Vytvoření šablony]                                     | Inza
 |        | Vymyslet nový název pro [doc:Jak začít pracovat s Nette Frameworkem]                     |
 | Hotovo | Aktualizovat Průvodce - [doc:Jak se naučit Nette Framework?]                             | Inza
 |        | Sepsat FAQ (pořádně) – [1 | wiki:faq], [2 | dev:faq], [3 | wiki:common-errors-sandbox] |
