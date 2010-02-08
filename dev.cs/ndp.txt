@@ -20,6 +20,7 @@ Pokud už na nějaké části dokumentace pracujete a nejste uvedeni v tabulce n
 |        | Sepsat [nápovědu | wiki:nápověda] pro tvorbu stránek na wiki                                | David Grudl
 |        | Napsat workflow pro práci s tagy (jaký tag pro jakou situaci)                               | David Grudl
 |        | Aktualizovat [Quick start | doc:quickstart] (odstranit největší nedostatky)              | Inza
+| Částečně | Přidat do QS shrnutí jednotlivých kapitol - [doc:quickstart]                          | Inza
 | Hotovo | Aktualizovat QS - [doc:quickstart/Jak stáhnout nette framework]                          | Inza
 | Hotovo | Aktualizovat QS - [Homepage | doc:quickstart]                                            | Inza
 | Hotovo | Aktualizovat QS - [doc:quickstart/Co budeme potřebovat?]                                 | Inza
