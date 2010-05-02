@@ -28,4 +28,8 @@ Pískoviště
 
 [Šablony]
 
+.[#podmínky]
+Nadpis
+======
+
 {{tags: nette-0.9}}
