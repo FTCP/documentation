@@ -16,10 +16,16 @@ Pískoviště
 
 {{doc: meta:side/doc}}
 
+{{docbar: meta:side/doc}}
+
 {{menu: meta:side/doc}}
 
 {{side: meta:side/doc}}
 
 {{sidebar: meta:side/doc}}
+
+{{base: doc:}}
+
+[Šablony]
 
 {{tags: nette-0.9}}
