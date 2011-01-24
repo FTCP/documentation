@@ -38,7 +38,7 @@ Videa pro začátečníky.
 
 [*  .[icon] *]
 
-[Kuchařka]
+[Kuchařka | cookbook]
 -------
 Krátké návody jak nejsnáze řešit jednotlivé problémy
 
