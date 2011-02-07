@@ -10,10 +10,19 @@ První krůčky s Nette Frameworkem
 - spustenie skeletonu (predpripravená kostra aplikácie)
 \--
 
+
+[*  .[icon] *]
+[screencasty/Najjedoduchší AJAX príklad v Nette Framework ]
+-----------------------------------------------------------
+Screencast obsahuje tutorial ako si v Nette Framework vytvoriť tú najjednoduchšiu AJAX aplikáciu
+
+
+
 [*  .[icon] *]
 [screencasty/Statický web s menu]
 ---------------------------------
 Jednoduchý statický web s menu
+
 
 /--comment
 [*  .[icon] *]
