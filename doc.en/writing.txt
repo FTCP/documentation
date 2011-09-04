@@ -41,3 +41,5 @@ The translation should use simple vocabulary, because it is designed not only fo
 
 
 {{themeicon: }}
+
+[*  *]
