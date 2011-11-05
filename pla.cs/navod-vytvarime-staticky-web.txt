@@ -12,7 +12,7 @@ Pro PHP 5.2 by mělo stačit zakomentovat `use` (22)
 
 Co budete potřebovat?
 ===
-- `nette.min.php` z aktuální distribuce [Nette Frameworku|http://nette.org/cs/download]
+- `sandbox` z aktuální distribuce [Nette Frameworku|http://nette.org/cs/download]
 
 Co se naučíte?
 ===
@@ -68,13 +68,15 @@ $params['appDir'] = realpath(__DIR__ . '/../app');
 require $params['appDir'] . '/bootstrap.php';
 
 \--
-Soubor uložte, respektive přepište stávající předinstalovaný ve sandboxu.
 
 .[note]
 Při používání Nette Frameworku se doporučuje používat pouze úvodní tag pro php script. Uzavírací tag "?>" může působit problémy
 
 bootstrap.php
 ===
+.[caution]
+Aktuální bootstrap.php se může v poslední ditribuci lišit, neberte ho jako dogma.Vždy použijte ten z aktuální distribuce, předinstalovaný ve sandboxu. Není do něj potřeba zasahovat, kromě přepnutí aplikace do ladícího módu, viz. níže.
+
 Starter aplikace zavolá Nette Framework a spustí důležitého pomocníka - [Laděnku|http://guides.nette.org/cs/nette-debug]. Ta nám bude neustále nablízku a bude nám pomáhat řešit případné chyby při psaní kódu.
 
 cesta k souboru: `app/bootstrap.php`
@@ -86,7 +88,7 @@ use Nette\Diagnostics\Debugger,
 
 // Load Nette Framework
 $params['libsDir'] = realpath(__DIR__ . '/../libs');
-require $params['libsDir'] . '/Nette/nette.min.php';
+require $params['libsDir'] . '/Nette/loader.php';
 
 
 // Enable Nette Debugger for error visualisation & logging
