@@ -50,7 +50,7 @@ nette:
 \--
 
 .[warning]
-Tohle je zatím spíše experimentální záležitost.
+Konfigurace rout je zatím experimentální.
 
 
 Security
@@ -197,7 +197,7 @@ Objekt pro přístup ke keši vyrobí `$container->nette->createCache($namespace
 Low-level úpravy
 ---------------
 
-Všechny tyto nastavení ovlivňují podobu výsledného systémového DI kontejneru. Oproti přímému zápisu do sekcí `services či factories` nabízejí srozumitelnější a stručnější syntax. Nicméně zůstává možnost si jednotlivé služby ještě "doladit" na nižší úrovni:
+Všechny tyto nastavení ovlivňují podobu výsledného systémového DI kontejneru. Oproti přímému zápisu do sekcí `services` či `factories` nabízejí srozumitelnější a stručnější syntax. Nicméně zůstává možnost si jednotlivé služby ještě "doladit" na nižší úrovni:
 
 /--neon
 services:
