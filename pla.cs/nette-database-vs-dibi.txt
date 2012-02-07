@@ -18,10 +18,9 @@ Dibi dosáhla svého vrcholu, a jak sám autor říká, už není nic dalšího,
 Nette\Database
 **************
 
-"Nette Database":http://doc.nette.org/cs/database je velice inovativní ale i magická knihovna. Vychází z "NotORM":http://www.notorm.com/ od Jakuba Vrány a pozměnuje (příliš) magické API, aby se lépe používala.
+"Nette Database":http://doc.nette.org/cs/database je velice inovativní ale i magická knihovna. Nette Database je z většiny "něco jako dibi", ale k tomu kombinuje hlavní feature "NotORM":http://www.notorm.com/ od Jakuba Vrány a pozměnuje (příliš) magické API, aby se lépe používala.
 
-Knihovna sama o sobě je zaměřená primárně na získávání dat z databáze a dělá to výborně. Snaží se ušetřit nás od psaní opakujících se SQL dotazů a pokládá minimální množství maximálně efektivních SQL dotazů. Opět můžete porovnat "zápis dotazů":http://sql-cross-queries.freexit.eu/dibi/nettedb/. Může se tvářit příliš magicky, ale to je právě její výhoda.
-
+Tou feature převzatou z NotORM je inteligentní získávání dat z databáze. Snaží se ušetřit nás od psaní opakujících se SQL dotazů a pokládá minimální množství maximálně efektivních SQL dotazů. Opět můžete porovnat "zápis dotazů":http://sql-cross-queries.freexit.eu/dibi/nettedb/. Může se tvářit příliš magicky, ale to je právě její výhoda.
 
 
 Použití dibi
