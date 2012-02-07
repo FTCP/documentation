@@ -65,7 +65,7 @@ class ArticlePresenter extends Nette\Object
 
 	public function actionDefault($id)
 	{
-		$row = $this->db->query('SELECT * FROM articles WHERE id = %s', $id);
+		$row = $this->db->query('SELECT * FROM articles WHERE id = %i', $id);
 		// ...
 	}
 
