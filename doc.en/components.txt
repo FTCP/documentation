@@ -26,7 +26,7 @@ class PollControl extends Control
 \--
 
 .[note]
-When talking about components, we usually mean descendants of class [Control |api:Nette\Application\UI\Control]. Using the term "controls" would be more accurate, but the term "Components" is used for language reasons from Nette's early age.
+When talking about components, we usually mean descendants of class [Control | api:Nette\Application\UI\Control]. Components are basically controls in framework's terminology.
 
 Templates
 =========
