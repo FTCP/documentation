@@ -35,6 +35,13 @@ Nette Framework můžete používat zcela zdarma. Budeme rádi, pokud jeho vývo
 
 [*  .[icon] *]
 
+[Komunita]
+----------
+Nette Framework má kolem sebe velmi aktivní komunitu a v rámci ní jsou kromě samotného vývoje provozovány další aktivity.
+
+
+[*  .[icon] *]
+
 [Školení | http://www.skoleniphp.cz]
 --------------
 Naučíme vás tvořit dokonalé webové aplikace rychle, kvalitně a bez bezpečnostních děr.
