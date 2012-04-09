@@ -13,17 +13,6 @@ Kde jaký soubor dáti...
 
 
 
-ModelsExtension.php
----
-
-/--php
-class ModelsExtension extends Nette\Config\CompilerExtension
-{
-
-}
-\--
-
-
 2) Registrujeme
 ===
 
@@ -42,24 +31,9 @@ models.neon
 ---
 
 /--neon
-models:
-	services:
-		balance:
-			class: Models\Balance
-			arguments: [@database, @pdo, @cache]
-		match:
-			class: Models\Match
-			arguments: [@database, @pdo, @cache]
-\--
 
-
-bootstrap.php
----
-
-/--php
-$configurator->onCompile[] = function($configurator, $compiler) {
-	$compiler->addExtension("models", new ModelsExtension);
-};
+models: Nette\DI\NestedAccessor(@container, "models")
+models.balance: Models\Balance // parametry přes autowiring
 \--
 
 
