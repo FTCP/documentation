@@ -30,8 +30,6 @@ Obě výše uvedené direktivy `RewriteCond` nejsou nutné, nicméně jejich exi
 Změna adresářové struktury
 --------------------------
 
-
-
 1. Stačí přesunout složky *app*, *libs*, *log* a *temp* do *www*.
 
 [*  *]
@@ -54,7 +52,7 @@ $configurator->setTempDirectory(__DIR__ . '/../temp');
 \--
 
 .[warning]
-Nezapomeňte zkontrolovat, zda *app*, *libs*, *log* a *temp* obsahují *".htaccess"((pokud používáte IIS, tak se jedná o web.config))* se zákazem přístupu do těchto složek, aby vám někdo nemohl přečíst konfigurační soubory či logy s chybami. (Např.: http://example.com/app/config/config.neon)
+Nezapomeňte zkontrolovat, zda *app*, *libs*, *log* a *temp* obsahují *".htaccess"((pokud používáte IIS, tak se jedná o web.config))* se zákazem přístupu do těchto složek, aby vám někdo nemohl přečíst konfigurační soubory či logy s chybami. (Např.: `http://example.com/app/config/config.neon`)
 
 
 Bílá stránka po nahrání na hosting
