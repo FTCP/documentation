@@ -23,8 +23,6 @@ Přidávací formulář
 {/form}
 
 
-
-
 <script type="text/javascript">
 	$("form").delegate('#'+{$control["selectForm-static"]->htmlId}, 'change', function() {
 		$.get("?do=selectLoad", {"static": $(this).val()});
