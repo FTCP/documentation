@@ -6,13 +6,6 @@ Quicstart refactoring
 - u všech použití modelů popřemýšlet nad napsáním speciální metody v příslušné Table instanci
 
 
-
-"Komponenty":http://doc.nette.org/cs/quickstart/components
------------
-
-- vyhazovat `BadRequestException` v továrnách, pokud je $this->tasklist prázdný + vysvětlení
-
-
 "Authenticator":http://doc.nette.org/cs/quickstart/authentication
 -----------
 
