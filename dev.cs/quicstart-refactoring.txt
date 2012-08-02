@@ -6,12 +6,6 @@ Quicstart refactoring
 - u všech použití modelů popřemýšlet nad napsáním speciální metody v příslušné Table instanci
 
 
-"Presenter":http://doc.nette.org/cs/quickstart/presenter
---------------
-
-- přepsat "TaskPresenter"
-- popřemýšlet, jestli by nebylo lepší titulek udělat pomocí bloku
-- přidat kapitolu o injektování
 
 
 "Formuláře":http://doc.nette.org/cs/quickstart/forms
