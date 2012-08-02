@@ -10,7 +10,7 @@ Quicstart refactoring
 -------------
 
 
-- setDebugMode() povoluje "ladění", špatná formulace
+
 - poznámka o přepínání je strašně dlouhá, shrnul bych to větou a odkázal do faq
 
 
