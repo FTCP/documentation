@@ -9,7 +9,6 @@ Quicstart refactoring
 "Presenter":http://doc.nette.org/cs/quickstart/presenter
 --------------
 
-- přepsat "Spojení s modelem"
 - přepsat "TaskPresenter"
 - popřemýšlet, jestli by nebylo lepší titulek udělat pomocí bloku
 - přidat kapitolu o injektování
