@@ -3,9 +3,9 @@
 
 repo: https://github.com/HosipLan/nette-quickstart
 
-- dát všemu namespacy
-- místo tagů použít v repozitáři branche
-- u všech použití modelů popřemýšlet nad napsáním speciální metody v příslušné Table instanci
+- <del>dát všemu namespacy</del>
+- <del>místo tagů použít v repozitáři branche</del>
+- <del>u všech použití modelů popřemýšlet nad napsáním speciální metody v příslušné Table instanci</del>
 
 <del>
 
